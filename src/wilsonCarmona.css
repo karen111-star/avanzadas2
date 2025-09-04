@@ -50,8 +50,9 @@
   height: 100%;
 }
 .TextoTeamGoRocket{
-  width:100%;
+  width:50%;
   height: 80%;
+  padding-left: 25%;
 }
 /*Carrucel*/
 .contenedorGeneralCarrucel{
