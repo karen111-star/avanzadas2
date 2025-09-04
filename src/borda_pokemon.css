@@ -1,0 +1,29 @@
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+
+  color: #000;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+  font-size: 15px;
+  line-height: 1.4;
+}
