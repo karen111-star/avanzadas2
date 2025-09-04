@@ -2,10 +2,18 @@ import React, { useState } from "react";
 import "./wilsonCarmona.css";
 
 // lista imágenes carrusel Team Go Rocket
-import arlo from "./img/arlo.webp"; // ✅ si está en src/assets
-import cliff from "./img/clift.webp"; // ✅ si está en src/assets
-import sierra from "./img/sierra.webp"; // ✅ si está en src/assets
-
+const arlo = {
+  name: 'Arlo',
+  imageUrl: 'https://lh3.googleusercontent.com/yYRLGyanbYk_w6CQ1_ssMIucddxlH1FTx1w7JXa9RRTDXqv5UvLCfPbjAWQSkZhS1RADIIupMPJI5NTK4lU-1cBTi8yhi0ZECrg=e365-pa-nu-w1300-rw',
+};
+const cliff = {
+  name: 'Cliff',
+  imageUrl: 'https://lh3.googleusercontent.com/sG5i_zZCyTdlQOVe3f7cL3jJZWS85sZQ9SsOQ9Xky0uqH58_RN3MMibl3OQ27E_Gy8nmyZWd1WML0mcvVx6RYMN6i0lck8A1ZA=e365-pa-nu-w2368-rw',
+};
+const sierra = {
+  name: 'Sierra',
+  imageUrl: 'https://lh3.googleusercontent.com/23l9zGNqE8v1mJ6Nhz1ZGtaT7VaVwGiqhTFHcvh2xX2gdAwhUgaIgb0wPG-e7BzWJS5SXx9sSmBiH3CLQBZhZgZOcWcUNySdg4g=e365-pa-nu-w2356-rw',
+};
 const images = [
   arlo,
   cliff,
@@ -52,8 +60,8 @@ function TeamRocketGo() {
        <div className="contenedorGeneralCarrucel">
             <div className="slider-container">
               <img
-                src={images[currentIndex]}
-                alt="slider"
+                src={images[currentIndex].imageUrl}
+                alt={images[currentIndex].name}
                 className="slider-image"
               />
             </div>
@@ -66,6 +74,9 @@ function TeamRocketGo() {
                 ❯
               </button>
           </div>
+              <div className="image-name">
+                {images[currentIndex].name}
+              </div>
         </div>
     </div>
   );
