@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import Salguero from './Salguero.jsx';
 
 function Disney() {
 
   return (
     <>
-      ahhh  d
+      
+       <Salguero/>
+
     </>
   )
 }
 
-export default Disney
+export default Salguero
