@@ -1,8 +1,9 @@
+import TeamRocketGo from "./wilsonCarmona.jsx";
 function Pogo() {
 
   return (
     <>
-      <div>ahh p</div>
+    <TeamRocketGo />
     </>
   )
 }
