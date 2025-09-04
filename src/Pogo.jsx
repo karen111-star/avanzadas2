@@ -1,8 +1,11 @@
+import './Rivera_seccion.css'
+import Rivera_seccion from './Rivera_seccion.jsx'
+
 function Pogo() {
 
   return (
     <>
-      <div>ahh p</div>
+      <Rivera_seccion/>
     </>
   )
 }
