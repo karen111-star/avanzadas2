@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import './Yate_footer.css'
+import Yate_footer from './Yate_footer.jsx'
 
 function Disney() {
 
   return (
     <>
-      ahhh  d
+      <Yate_footer/>
     </>
   )
 }
