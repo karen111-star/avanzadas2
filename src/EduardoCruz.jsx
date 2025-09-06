@@ -4,12 +4,6 @@ import './EduardoCruz.css'
 
 // --- Global Styles Component ---
 // To resolve the file path issue, the CSS is included directly within the component.
-const GlobalStyles = () => (
-  <style>{`
-
-  `}</style>
-);
-
 
 // --- SVG Icons as Components ---
 const ProfileIcon = () => (
@@ -49,9 +43,9 @@ const navData = {
         alt: 'Walt Disney World Logo',
         href: '#'
     },
-    topLeftLink: { text: 'Visita Disney.com', href: '#' },
+    topLeftLink: { text: 'Visita Disney.com', href: 'https://www.disneylatino.com/' },
     topRightLinks: [
-        { id: 1, text: 'Ingresar o Crear una Cuenta', href: '#' },
+        { id: 1, text: 'Ingresar o Crear una Cuenta', href: 'https://disneyworld.disney.go.com/es-co/' },
         { id: 2, type: 'separator' },
         { id: 3, text: 'Colombia (Español)', href: '#', icon: <WorldIcon /> }
     ],
@@ -109,7 +103,7 @@ const Navbar = () => {
     );
 };
 
-function EduardoCruz() {
+function App() {
   return (
     <div className="App">
       <Navbar />
@@ -118,4 +112,5 @@ function EduardoCruz() {
   );
 }
 
-export default EduardoCruz;
+export default App;
+

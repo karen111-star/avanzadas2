@@ -1,11 +1,10 @@
-    /* Resetting default styles and setting base font */
+/* Resetting default styles and setting base font */
     body {
         margin: 0;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         background-color: #f7f7f7;
         color: #333;
     }
-
 
     /* Main container for the entire navbar */
     .navbar-container {
@@ -97,6 +96,7 @@
     .disney-logo {
         height: 80px; /* Adjust height as needed */
         background-color: #ffffffff;
+        padding: 1rem;
     }
 
     .main-link {
