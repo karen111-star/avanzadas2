@@ -1,4 +1,12 @@
+
 import Buitrago_pokemon from './Buitrago_pokemon'
+
+
+
+import './Rivera_seccion.css'
+import Rivera_seccion from './Rivera_seccion.jsx'
+
+import TeamRocketGo from "./wilsonCarmona.jsx";
 
 
 function Pogo() {
@@ -7,6 +15,8 @@ function Pogo() {
     <>
       <div>ahh p</div>
       <Buitrago_pokemon/>
+      <Rivera_seccion/>
+    <TeamRocketGo />
     </>
   )
 }
