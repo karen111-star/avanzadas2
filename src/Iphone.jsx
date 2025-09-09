@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Caicedo_encabezado from './Caicedo.jsx'  
+
 import Vargas_APPLE from './Vargas_APPLE.jsx'
 
 import Villamarin_terminos_condiciones from './Villamarin_terminos_condiciones.jsx'
@@ -16,6 +18,12 @@ function Iphone() {
   return (
     <>
       ahhh i
+      <Caicedo_encabezado/>
+    </>
+  )
+}
+
+export default Iphone;
       <Vargas_APPLE/>
 
       <Villamarin_terminos_condiciones/>
@@ -32,3 +40,4 @@ function Iphone() {
 }
 
 export default Iphone
+
