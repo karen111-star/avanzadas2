@@ -1,0 +1,259 @@
+.body{
+  background-color: #F5F5F7;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.principal{
+  display: flex;
+  overflow-x: hidden;  /* ocultamos scroll */
+  scroll-behavior: smooth; /* movimiento suave */
+  width: 100vw; /* ancho visible */
+  gap: 20px;
+
+}
+
+.flechas {
+  position: fixed;         /* fijo en la pantalla */
+  bottom: 20px;            /* separación desde abajo */
+  right: 20px;             /* separación desde la derecha */
+  display: flex;
+  gap: 15px;               /* espacio entre los botones */
+  z-index: 1000;           /* por encima del contenido */
+  background-color: white;
+  padding-right: 50px;
+}
+
+.flecha {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;      /* círculo */
+  background-color: #e0e0e0; /* gris */
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;            /* símbolos en negro */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* sombra ligera */
+  transition: background 0.2s ease;
+}
+
+.flecha:hover {
+  background-color: #c0c0c0; /* efecto hover */
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  width: 370px;
+}
+
+
+.puntos{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 64px 60px;
+  gap: 24px;
+  margin-top: 75px;
+}
+.titulo1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  font-weight: 600;
+}
+
+.titulo2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 28px
+}
+
+.titulo3{
+  margin-top: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2A7ED4;
+}
+
+.titulo4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2A7ED4;
+}
+
+.titulo3:hover, .titulo4:hover{
+  text-decoration: underline;
+}
+
+.iphone{
+  width: 192px;
+  height: 243px;
+  transition: transform 0.4s ease-in-out; /* duración + suavidad */
+}
+
+.iphone:hover{
+  transform: scale(1.020);
+}
+
+.descripcion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.informacionComprar{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  background-color: #0076DF;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400px;
+  line-height: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 160px;
+  height: 42px;
+}
+
+.imgsecundarias{
+  width: 40px;
+  height: auto;
+}
+.imgsecundariasba{
+  width: 40px;
+  height: auto;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+.imgcontrol{
+  width: 20px;
+  height: 10px;
+  margin-bottom: 42px;
+  padding-top: 25px;
+
+}
+
+.imgcontrol2{
+  width: 20px;
+  height: 10px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+
+}
+ul{
+  margin-top: 0px;
+  padding-left: 0px;
+  align-items: center;
+  text-align: center;
+}
+.subtitulos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  color: #1F1F21;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.lisubtitulos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  color: #1F1F21;
+  margin-top: 0px;
+  padding: 7px;
+}
+.lineaseparacion{
+  border-top: 1px solid #D2D2D7;
+  margin-top: 50px;
+  padding-top: 70px;
+}
+
+.colorcafe{
+  width: 11px;
+  height: 11px;
+  background-color: #BFA48F;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
+
+.colorbeige{
+  width: 11px;
+  height: 11px;
+  background-color: #C2BCB2;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+}
+.colorblanco{
+  width: 11px;
+  height: 11px;
+  background-color: #F7F6F2;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
+
+.colornegro{
+  width: 11px;
+  height: 11px;
+  background-color: #3C3C3D;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
+
+.colorceleste{
+  width: 11px;
+  height: 11px;
+  background-color: #94A5EB;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
+
+.colorverdeoliva{
+  width: 11px;
+  height: 11px;
+  background-color: #ABCFCD;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
+
+.colorrosa{
+  width: 11px;
+  height: 11px;
+  background-color: #EDA8D5;
+  border-radius: 50%;
+  border: 0.25px solid lightgrey;
+  
+}
