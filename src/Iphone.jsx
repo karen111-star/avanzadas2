@@ -1,4 +1,9 @@
 import { useState } from 'react'
+
+import './Rincon.css'
+import Rincon_iphone from './Rincon_iphone.jsx'
+
+
 import './App.css'
 import Rubio_Alejandro_Iphone from './Rubio_Alejandro_Iphone.jsx'
 
@@ -20,6 +25,7 @@ function Iphone() {
   return (
     <>
       ahhh i
+      <Rincon_iphone/>
       <Rubio_Alejandro_Iphone/>
 
       <Caicedo_encabezado/>
