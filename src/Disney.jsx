@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import App from './Urriago.jsx'
+import Urriago from './Urriago.jsx'
+
 import O_Herrera from './O-Herrera.jsx'
+
 
 
 function Disney() {
 
   return (
     <>
-      ahhh  d
+      <Urriago/>
       <O_Herrera/>
     </>
   )
