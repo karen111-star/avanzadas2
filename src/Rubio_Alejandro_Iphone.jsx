@@ -1,0 +1,86 @@
+import React from 'react';
+import './Rubio_Alejandro_Iphone.css';
+
+function Rubio_Alejandro_Iphone() {
+  const continuidadData = {
+    secciones: [
+      {
+        id: 1,
+        imagen: "https://www.apple.com/co/iphone/home/images/overview/augment/mac__b2km5lqjzk1y_large.jpg",
+        descripcion: "iPhone y Mac\n\nCon la app Duplicación del iPhone puedes ver la pantalla de tu teléfono en el Mac y controlarlo a distancia. Las funcionalidades de Continuidad te permiten responder llamadas y mensajes directamente desde el Mac. Incluso puedes copiar imágenes, videos o texto del iPhone y pegar todo en otra app en el Mac. Y con iCloud, puedes acceder a tus archivos desde ambos dispositivos.",
+        altText: "iPhone y MacBook mostrando la duplicación de pantalla con continuidad",
+        expandido: true
+      },
+      {
+        id: 2,
+        titulo: "iPhone y Apple Watch",
+        descripcion: "",
+        imagen: "",
+        altText: "",
+        expandido: false
+      },
+      {
+        id: 3,
+        titulo: "iPhone y AirPods",
+        descripcion: "",
+        imagen: "",
+        altText: "",
+        expandido: false
+      }
+    ]
+  };
+
+  return (
+    <div className="App">
+      <section className="continuidad-section">
+        <div className="container">
+          <div className="seccion-continuidad">
+            <div className="seccion-contenido">
+              <div className="contenido-wrapper">
+                <div className="texto-contenido">
+                  <p className="descripcion">{continuidadData.secciones[0].descripcion}</p>
+                  
+                  <div className="divisor"></div>
+                  <h3 className="titulo-secundario">iPhone y Apple Watch</h3>
+                  
+                  <div className="divisor"></div>
+                  <h3 className="titulo-secundario">iPhone y AirPods</h3>
+                </div>
+
+                <div className="boton-contenido">
+                  <button className="expand-button">
+                    <svg 
+                      width="24" 
+                      height="24" 
+                      viewBox="0 0 24 24" 
+                      fill="none"
+                      className="rotated"
+                    >
+                      <path 
+                        d="M7 10L12 15L17 10" 
+                        stroke="currentColor" 
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                
+                <div className="imagen-contenido">
+                  <img 
+                    src={continuidadData.secciones[0].imagen}
+                    alt={continuidadData.secciones[0].altText}
+                    className="imagen-principal"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Rubio_Alejandro_Iphone;
