@@ -1,4 +1,9 @@
 
+import { useState } from 'react'
+import Elmer from './Elmer'
+import './App.css'
+
+
 import Buitrago_pokemon from './Buitrago_pokemon'
 
 
@@ -13,10 +18,14 @@ function Pogo() {
 
   return (
     <>
+      <div> </div>
+      <Elmer/>
+
       <div>ahh p</div>
       <Buitrago_pokemon/>
       <Rivera_seccion/>
     <TeamRocketGo />
+
     </>
   )
 }
