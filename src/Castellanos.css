@@ -1,0 +1,57 @@
+/* Contenedor general */
+.contenedor {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 700px;
+  margin: 30px auto;
+  line-height: 1.4; /* 👈 más compacto */
+  color: #1b1b1b;
+  font-weight: bold;
+}
+
+
+/* Párrafos */
+.contenedor p {
+  margin: 5px 0; /* 👈 reduce separación vertical */
+}
+
+/* Teléfono */
+.telefono {
+  font-weight: bold;
+}
+
+/* Pregunta */
+.pregunta {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0; /* 👈 más junto */
+}
+
+/* Enlace */
+a {
+  color: #0088ff;
+  text-decoration: none;
+}
+
+
+/* Nota */
+.nota {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px; /* 👈 menos espacio */
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
