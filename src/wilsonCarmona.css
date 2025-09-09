@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+.contenedorTeamGoRocket{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 360px;
+  background-image: url("https://lh3.googleusercontent.com/S0Xrl28FUzA_I9byp0QbW68gawcAfdk4uC-Iz_yI8oxNwccY0NwiBquXq9q2rCkaa-bXp6EAQC37rmoyCFzvju7bQ5_ipHITvdI=e365-pa-nu-w3840-rw");
+  overflow:hidden;
+}
+.contenedorFondoCieloTeamGoRocket{
+  position:absolute;
+  width: 50%;
+  height:70%;
+  bottom: 0;
+  right:0;
+  background-image: url("https://lh3.googleusercontent.com/S8zaksU1V56qyPcZVRwEbHpjjaDoY-_sQ6beRIEkrGzqLzKHSrTYKcLmCeC9RePsDmeyDdwRra7koEVMcxP5Ye8QnxvAtqhpCFM=e365-pa-nu-w1876-rw");
+}
+.contenedorContenidoTeamGoRocket{
+  width:50%;
+  height:100%;
+}
+.informacionTeamGoRocket{
+  width:100%;
+  height:100%;
+}
+.cabezeraTeamGoRacketInformacion{
+  display:flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.logoTeamRocketGo{
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url("https://storage.googleapis.com/nianticweb-axiom-cdn/pokemongo/uploads/260efd700f5d6a48a989bdf6f2df3330d2aadd06.svg");
+  background-position: center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+.tituloTeamGoRocket{
+  padding-top: 10%;
+  width: 30%;
+  height: 100%;
+}
+.TextoTeamGoRocket{
+  width:50%;
+  height: 80%;
+  padding-left: 25%;
+}
+/*Carrucel*/
+.contenedorGeneralCarrucel{
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+/* Contenedor principal */
+.slider-container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+/* Imagen del slider */
+.slider-image {
+  width: 120%;
+  height: 160%;
+  object-fit: contain;
+  transition: opacity 0.8s ease-in-out;
+}
+.image-name{
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 200px;
+  right: 300px;
+  font-size: 30px;
+}
+/*contenedor botones*/
+.container-buttons{
+  padding-top: 10%;
+  width: 100px;
+  height: 0px;
+}
+/* Botones */
+.slider-button {
+  transform: translateY(-50%);
+  background-color: #fff;
+  color:#0061af;
+  border: solid 1px #0061af;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slider-button:hover {
+  background-color: gray;
+}
+
+/* Botón izquierdo */
+.slider-button.prev {
+  left: 10px;
+}
+
+/* Botón derecho */
+.slider-button.next {
+  right: 10px;
+}
+
