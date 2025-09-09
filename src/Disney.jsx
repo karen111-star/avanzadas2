@@ -2,12 +2,26 @@ import { useState } from 'react'
 import './App.css'
 import Vega_seccion from './Vega_seccion.jsx'
 
-function Disney() {
+import Salguero from './Salguero.jsx';
 
-  return (
+
+import Piratoba from './Piratoba.jsx'
+
+import App from './Urriago.jsx'
+import Urriago from './Urriago.jsx'
+
+import O_Herrera from './O-Herrera.jsx'
+
+
+function Disney() {
     <>
-      ahhh  d
+
       <Vega_seccion/>
+
+      <Piratoba/>
+      <Urriago/>
+        <Salguero/>
+      <O_Herrera/>
     </>
   )
 }
