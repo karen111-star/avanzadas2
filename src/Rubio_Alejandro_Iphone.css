@@ -1,0 +1,154 @@
+/* Reset y estilos base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #1d1d1f;
+  background-color: white;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* Container principal */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Sección de continuidad */
+.continuidad-section {
+  padding: 0;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.seccion-continuidad {
+  background-color: #f5f5f7;
+  border-radius: 18px;
+  margin: 20px;
+  width: calc(95vw - 40px);
+}
+
+/* Header de cada sección */
+.seccion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  cursor: pointer;
+}
+
+.seccion-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.seccion-titulo {
+  font-size: 28px;
+  font-weight: 600;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: #1d1d1f;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #86868b;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.expand-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #1d1d1f;
+}
+
+.expand-button svg {
+  transition: transform 0.3s ease;
+}
+
+.expand-button svg.rotated {
+  transform: rotate(180deg);
+}
+
+/* Contenido expandido */
+.seccion-contenido {
+  width: 100%;
+}
+
+.contenido-wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 0.3fr 1.2fr;
+  width: 100%;
+  padding: 10px 70px 70px 70px;
+  align-items: start;  /* Cambiar de 'center' a 'start' */
+  min-height: 500px;
+}
+
+/* Contenido de texto */
+.texto-contenido {
+   padding: 50px 40px 50px 50px;
+}
+
+
+
+/* Contenido de imagen */
+.imagen-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.imagen-principal {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border-radius: 8px;
+}
+
+.descripcion {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #1d1d1f;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  white-space: pre-line;
+}
+
+.descripcion::first-line {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.boton-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: start;
+  margin-top: 50px;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: #d2d2d7;
+  margin: 30px 0;
+}
+
+.titulo-secundario {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin: 25px 0;
+  letter-spacing: -0.01em;
+}
