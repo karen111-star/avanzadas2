@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import EduardoCruz from './EduardoCruz.jsx'
+
 import Parra_seccion from './Parra_seccion.jsx'
+
 function Disney() {
 
 import Vega_seccion from './Vega_seccion.jsx'
@@ -20,6 +23,7 @@ import O_Herrera from './O-Herrera.jsx'
 function Disney() {
     <>
       ahhh  d
+      <EduardoCruz/>
       <Parra_seccion/>
 
 
