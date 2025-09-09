@@ -1,0 +1,58 @@
+/* Sección completa */
+.experience-section {
+  width: 100%;            /* ancho completo de la página */
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fff; /* fondo blanco detrás del título */
+  margin: 0;
+}
+
+/* Línea decorativa */
+.sparkle-line {
+  width: 95%;             /* un poco más corta que el 100% */
+  margin: 0 auto 1.5rem;
+  border: none;
+  border-top: 1px solid #dcdcdc;
+}
+
+/* Título */
+.section-header {
+  font-size: 2rem;
+  color: #1b2a57;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+/* Card de experiencia con imagen */
+.experience-card {
+  position: relative;
+  width: 95%;             /* ajusta al ancho con márgenes */
+  height: 500px;          /* alto fijo */
+  margin: 0 auto;         /* centrada */
+  background-size: cover; /* cubre sin deformar */
+  background-position: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Etiqueta azul */
+.experience-label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  background-color: #1b4fa3;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: left;
+  max-width: 80%;
+}
+
+/* Texto del parque */
+.experience-park {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+  font-weight: bold;
+}

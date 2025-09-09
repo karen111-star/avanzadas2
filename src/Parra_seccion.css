@@ -1,0 +1,66 @@
+.promo-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 80%;
+  margin: 100px auto 20px auto; /* Unificado margin-top */
+  flex-wrap: wrap; /* Para que se ajuste en pantallas pequeñas */
+}
+
+.promo-image {
+  width: 45%; /* Más flexible y proporcional */
+  height: auto; /* Mantiene proporción */
+  border-radius: 18px;
+  object-fit: cover;
+  min-width: 300px; /* Para que no se haga demasiado pequeño */
+}
+
+.promo-content {
+  width: 50%; /* Ocupa el resto del espacio */
+  margin: 0; /* Quitamos márgenes grandes */
+  text-align: left; /* Mejor alineación para texto largo */
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.promo-content h2 {
+  font-size: 2.5rem; /* Ajuste más responsivo */
+  color: #002244;
+  margin-bottom: 10px;
+}
+
+.promo-content p {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Resto de estilos igual */
+.promo-button {
+  display: inline-block;
+  background-color: #0077CC;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.promo-button:hover {
+  background-color: #005fa3;
+}
+
+.promo-link {
+  color: #0077CC;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.promo-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+.disney-section {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* fondo blanco */
+  color: #000000;
+  max-width: 1200px; /* ancho máximo para que no se vea muy estirado */
+  margin: 0 auto; /* centrar sección */
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.texto {
+  flex: 1; /* ahora ocupa la mitad izquierda */
+}
+
+.texto h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.texto p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.texto button {
+  background-color: #0070d1;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.texto button:hover {
+  background-color: #0059a6;
+}
+
+.imagen {
+  flex: 1; /* ocupa la otra mitad */
+  display: flex;
+  justify-content: center;
+}
+
+.imagen img {
+  width: 100%;       /* se ajusta al contenedor */
+  max-width: 500px;  /* límite para que no se deforme */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
