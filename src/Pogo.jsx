@@ -18,13 +18,11 @@ function Pogo() {
 
   return (
     <>
-      <div> </div>
-      <Elmer/>
+      <Elmer />
 
-      <div>ahh p</div>
-      <Buitrago_pokemon/>
-      <Rivera_seccion/>
-    <TeamRocketGo />
+      <Buitrago_pokemon />
+      <Rivera_seccion />
+      <TeamRocketGo />
 
     </>
   )

@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './Rincon.css'
 import Rincon_iphone from './Rincon_iphone.jsx'
 
@@ -7,7 +5,7 @@ import Rincon_iphone from './Rincon_iphone.jsx'
 import './App.css'
 import Rubio_Alejandro_Iphone from './Rubio_Alejandro_Iphone.jsx'
 
-import Caicedo_encabezado from './Caicedo.jsx'  
+import Caicedo_encabezado from './Caicedo.jsx'
 
 import Vargas_APPLE from './Vargas_APPLE.jsx'
 
@@ -24,26 +22,21 @@ function Iphone() {
 
   return (
     <>
-      ahhh i
-      <Rincon_iphone/>
-      <Rubio_Alejandro_Iphone/>
+      <Rincon_iphone />
+      <Rubio_Alejandro_Iphone />
 
-      <Caicedo_encabezado/>
-    </>
-  )
-}
+      <Caicedo_encabezado />
 
-export default Iphone;
-      <Vargas_APPLE/>
+      <Vargas_APPLE />
 
-      <Villamarin_terminos_condiciones/>
+      <Villamarin_terminos_condiciones />
 
-      
-      <Almario_foother/>
 
-      <Nicolas/>
+      <Almario_foother />
 
-      <Grass_seccion/>
+      <Nicolas />
+
+      <Grass_seccion />
 
     </>
   )
