@@ -1,0 +1,11 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin-left: 125px;
+}
+
+.portada {
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+}
