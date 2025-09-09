@@ -1,10 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+
+import './Yate_footer.css'
+import Yate_footer from './Yate_footer.jsx'
+
 import Castellanos from './Castellanos.jsx'
 
 import EduardoCruz from './EduardoCruz.jsx'
 
 import Parra_seccion from './Parra_seccion.jsx'
+
 
 function Disney() {
 
@@ -24,6 +29,7 @@ import O_Herrera from './O-Herrera.jsx'
 
 function Disney() {
     <>
+      <Yate_footer/>
       ahhh  d
       <Castellanos/>
       <EduardoCruz/>
